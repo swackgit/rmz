@@ -75,7 +75,7 @@ def get_page_info(url):
 
 
 def make_rss(content):
-    with open('/var/www/html/rss/rmz.rss', 'w', encoding="utf-8") as f:
+    with open('/var/www/html/rmz.rss', 'w', encoding="utf-8") as f:
         f.write(rss_opening)
         f.write(content)
         f.write(rss_closing)
