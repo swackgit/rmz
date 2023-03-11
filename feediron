@@ -1,0 +1,7 @@
+,
+    "rapidmoviez.me": {
+        "type": "xpath",
+        "xpath": [
+            "div[@class='blog-details clear']"
+        ]
+    }
